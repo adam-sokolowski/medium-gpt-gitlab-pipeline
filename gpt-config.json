@@ -1,0 +1,6 @@
+{
+  "language": "TypeScript",
+  "rules": [
+    [ "object constants", "should have name in UPPER_SNAKE_CASE"]
+  ]
+}
