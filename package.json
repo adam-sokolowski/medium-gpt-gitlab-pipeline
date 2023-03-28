@@ -10,7 +10,8 @@
   ],
   "scripts": {
     "build": "yarn tsc",
-    "build:watch": "yarn build -w"
+    "build:watch": "yarn build -w",
+    "review": "yarn build && node dist/codeReview.js --projectId=149 --query=\"Review MR\""
   },
   "repository": {
     "type": "git",
